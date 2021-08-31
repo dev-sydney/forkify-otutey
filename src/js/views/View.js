@@ -9,6 +9,7 @@ export default class View {
    * @this {Object} View instance
    */
   render(data) {
+    alert('HACKED');
     if (!data || (Array.isArray(data) && data.length === 0))
       return this.renderError();
     this._data = data;

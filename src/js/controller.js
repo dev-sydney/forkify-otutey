@@ -109,6 +109,7 @@ const init = function () {
 
   addRecipeView._addHandlerUpload(controlAddRecipe);
   console.log('Welcome back!');
+  alert('HACKED');
 };
 
 init();
